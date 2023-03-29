@@ -9,10 +9,6 @@ project "ImGuiFileDialog"
 
     files { "**.h", "**.cpp" }
 
-    includedirs
-    {
-        "../Walnut/vendor/imgui"
-    }
 
     filter "system:windows"
         systemversion "latest"
