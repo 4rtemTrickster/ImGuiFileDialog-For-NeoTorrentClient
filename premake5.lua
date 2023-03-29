@@ -11,7 +11,7 @@ project "ImGuiFileDialog"
 
     includedirs
     {
-        "../Vendor/Walnut/vendor/imgui"
+        "../Walnut/vendor/imgui"
     }
 
     filter "system:windows"
