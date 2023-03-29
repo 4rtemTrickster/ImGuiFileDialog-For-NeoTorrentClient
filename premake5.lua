@@ -14,6 +14,11 @@ project "ImGuiFileDialog"
         "../Walnut/vendor/imgui"
     }
 
+    links
+    {
+        "ImGui",
+    }
+
     filter "system:windows"
         systemversion "latest"
 
